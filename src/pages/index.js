@@ -9,6 +9,7 @@ import Link from "next/link";
 import {Button1, Button2} from "@/components/Buttons";
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
 import Transitioneffects from "@/components/Transitioneffects";
+import Hireme from "@/components/Hireme";
 
 
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
             </div>
           </div>
         </Layout>
+        <Hireme />
         <div className="absolute right-8  bottom-8 inline-block w-24 md:hidden xl:-bottom-20">
           <Image src={lightBulb}  alt="light bulb" className="w-full h-auto"/>
         </div>
